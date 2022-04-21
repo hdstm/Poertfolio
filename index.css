@@ -1,0 +1,297 @@
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+/*----------------------- Preloader -----------------------*/
+.preloader{
+        background-color: black;
+        background: url("Images/b6e0b072897469.5bf6e79950d23.gif") no-repeat center center 
+        /cover;
+        width: 100%;
+        z-index: 100;
+  }
+
+
+.nav-bar{
+        position: fixed;
+        z-index: 1;
+}
+
+  /* banner */
+.banner-background {
+        background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0))
+        , url(IMAGES/pexels-junior-teixeira-2047905.jpg) no-repeat center center 
+        /cover;
+}
+.banner-text{
+border-radius: 10%;
+background: rgb(122,122,122);
+background: linear-gradient(180deg, rgba(122,122,122,0.9) 0%, rgba(0,0,0,0.9) 0%, rgba(255,255,255,0.2) 100%);
+}
+/* skills*/
+.skills-backround{
+    background-image: url("IMAGES/pexels-lukas-590016.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.skill-title-p{
+    padding: 1%;
+    border-radius: 5%;
+    background: linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,.5));
+}
+.skill-title-p:hover{
+    padding: 1%;
+    border:solid black 1px;
+    border-radius: 15%;
+    background: linear-gradient(-45deg, rgba(255,255,255,1),rgba(255,255,255,.7));
+}
+.skill-card-bg1{
+    border: solid 1px;
+    border-radius: 5%;
+    background: linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,.5));
+    transition: all 0.5s ease-in-out;
+}
+
+.skill-card-bg2{
+    border: solid 1px;
+    border-radius: 5%;
+    background: linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,.5));
+    transition: all 0.5s ease-in-out;
+}
+.skill-card-bg3{
+    border: solid 1px;
+    border-radius: 5%;
+    background: linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,.5));
+    transition: all 0.5s ease-in-out;
+}
+.skill-card-bg1:hover{
+    border: solid red 2px;
+    border-radius: 5%;
+    background: linear-gradient(-45deg, rgba(255,255,255,1),rgba(255,255,255,.7));
+}
+.skill-card-bg2:hover{ 
+    border: solid #5cb85c 2px;
+   border-radius: 5%;
+    background: linear-gradient(-45deg, rgba(255,255,255,1),rgba(255,255,255,.7));
+}
+.skill-card-bg3:hover{ 
+    border: solid #0275d8 2px;
+   border-radius: 5%;
+    background: linear-gradient(-45deg, rgba(255,255,255,1),rgba(255,255,255,.7));
+}
+/* project */
+.project-backround{
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0))
+    , url(IMAGES/pexels-designecologist-1779487.jpg) no-repeat center center 
+    /cover;
+}
+/* Owner */
+.owner-background{
+    background-image: url("IMAGES/laptop-2298286.png");
+    background-position: center;
+    background-size: cover;
+   
+}
+.owner-p{
+    border-radius: 1%;
+    background: linear-gradient(45deg, rgba(0,0,0,.9),rgba(0,0,0,.5));
+}
+
+.owner-p:hover{
+    border-radius: 5%;
+    background: linear-gradient(-45deg, rgba(0,0,0,1),rgba(0,0,0,.8));
+}
+
+/*  effects */
+.typewriter{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 1%; /* Adjust as needed */
+    animation: 
+      typing 5.5s steps(40, end),
+      blink-caret 1s step-end infinite;
+  }
+  
+  .typewriter-small-screen{
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        white-space: normal; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: 1%; /* Adjust as needed */
+        animation: 
+          typing 5.5s steps(40, end),
+          blink-caret 1s step-end infinite;
+      }
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+    
+
+}
+/* animation slide-top  */
+
+  .slide-top {
+	-webkit-animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                transition: all 0.5s ease-in-out;
+}
+
+  @keyframes slide-top {
+    0% {
+      -webkit-transform: translateY(200px);
+              transform: translateY(200px);
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px);
+    }
+  }
+  
+/* scale up effect */
+  .scale-up-center {
+	-webkit-animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                transition: all 0.5s ease-in-out;
+}
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+  .kenburns-top {
+	-webkit-animation: kenburns-top 5s ease-out both;
+	        animation: kenburns-top 5s ease-out both;
+                transition: all 0.5s ease-in-out;
+}
+
+  @keyframes kenburns-top {
+    0% {
+        -webkit-transform: scale(1.25) translateY(-15px);
+        transform: scale(1.25) translateY(-15px);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+    }
+    100% {
+              -webkit-transform: scale(1) translateY(0);
+              transform: scale(1) translateY(0);
+                -webkit-transform-origin: 50% 16%;
+              transform-origin: 50% 16%;
+    
+            }
+  }
+
+  
+/* animation scale-up-hor-left */
+  .scale-up-hor-left {
+	-webkit-animation: scale-up-hor-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                transition: all 0.5s ease-in-out;
+}
+  @keyframes scale-up-hor-left {
+    0% {
+      -webkit-transform: scaleX(0.4);
+              transform: scaleX(0.4);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+    }
+  }
+
+ /* animation puff-in-top */ 
+  .puff-in-top {
+	-webkit-animation: puff-in-top 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: puff-in-top 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+                transition: all 0.5s ease-in-out;
+}
+ 
+  @keyframes puff-in-top {
+    0% {
+      -webkit-transform: scale(2);
+              transform: scale(2);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 0%;
+              transform-origin: 50% 0%;
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+ /* animation bounce-in-fwd */ 
+  .bounce-in-fwd {
+	-webkit-animation: bounce-in-fwd 1.1s both;
+	        animation: bounce-in-fwd 1.1s both;
+                transition: all 0.5s ease-in-out;
+}
+  @keyframes bounce-in-fwd {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: scale(0.7);
+              transform: scale(0.7);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: scale(0.84);
+              transform: scale(0.84);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    89% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: scale(0.95);
+              transform: scale(0.95);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  

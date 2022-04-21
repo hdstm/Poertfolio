@@ -1,0 +1,95 @@
+#header{
+background-color: #040308;
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(../IMAGES/ProfilAppHorizontal.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+
+.nav-back{
+    background-color: rgba(0,0,0,.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-bg-dark{
+    background-color: rgba(0,0,0,.8);
+    padding: 1%;
+    transition: all 0.5s ease-in-out;
+}
+.big-icon{
+    font-size: 550%;
+    transition: all 0.5s ease-in-out;
+}
+.small-icon{
+    font-size: 150%;
+    transition: all 0.5s ease-in-out;
+}
+
+#text-cover{
+    border-radius: 15%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2));
+    transition: all 0.5s ease-in-out;
+}
+
+#text-cover:hover{
+    border-radius: 5%;
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.8));
+    transition: all 0.5s ease-in-out;
+}
+#text-cover2{
+    border-radius: 50%;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    transition: all 0.5s ease-in-out;
+}
+#text-cover2:hover{
+    border-radius: 5%;
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.8));
+    transition: all 0.5s ease-in-out;
+}
+
+#text-cover3{
+    border-radius: 10%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+    transition: all 0.5s ease-in-out;
+}
+
+#text-cover3:hover{
+    border-radius: 5%;
+    background: linear-gradient(45deg,rgba(0,0,0,1), rgba(0,0,0,0.7));
+    transition: all 0.5s ease-in-out;
+}
+
+#text-cover4{
+    border-radius: 20%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    transition: all 0.5s ease-in-out;
+}
+#text-cover4:hover{
+    border-radius: 5%;
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.8));
+    transition: all 0.5s ease-in-out;
+}
+
+
+#first-section{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(../IMAGES/first-section.jpg);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    height: 100vh;
+}
+#second-section{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(../IMAGES/second-section.jpg);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    height: 100vh;
+}
+#final-section{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(../IMAGES/final-section.jpg);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    height: 100vh;
+}

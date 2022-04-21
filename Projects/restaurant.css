@@ -1,0 +1,90 @@
+#image-1{
+    border-radius: 5%;
+    height: auto; 
+    width: 90%;
+            
+}
+#banner{
+    background-image: url(../IMAGES/restaurant-logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#image-2{
+    border-radius: 5%;
+    height: auto; 
+    width: 75%;;
+}
+#image-3{
+    border-radius: 5%;
+    height: auto; 
+    width: 75%;
+}
+#image-4{
+    border-radius: 5%;
+    height: auto; 
+    width: 75%;
+}
+#image-5{
+    border-radius: 5%;
+    height: auto; 
+    width: 75%;
+}
+#image-6{
+    border-radius: 5%;
+    height: auto; 
+    width: 75%;
+}
+html {
+    
+        overflow-x: hidden;
+      
+}
+.background-white{
+    background:linear-gradient(rgba(255,255,255,1), rgba(255,255,255,.8));
+    border-radius: 5%;
+    padding: 2%;
+    transition: all 0.5s ease-in-out;
+}
+
+.background-white:hover{
+    background:linear-gradient(45deg, rgba(255,255,255,.8), rgba(255,255,255,1));
+    border-radius: 50%;
+    padding: 2%;
+}
+
+.background-dark{
+    background:linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.8));
+    border-radius: 5%;
+    padding: 2%;
+    transition: all 0.5s ease-in-out;
+}
+
+.background-dark:hover{
+    background:linear-gradient(45deg, rgba(0,0,0,.8), rgba(0,0,0,1));
+    border-radius: 50%;
+    padding: 2%;
+}
+
+@media(max-width:500px){
+    #image-1,#image-2,#image-3,
+    #image-4,#image-5,#image-6 {
+        display: none;
+    }
+}
+@media(min-width:500px) and (max-width:768px){
+   .order-1{
+    order: 1;
+   }
+   .order-2{
+       order: 2;
+   }
+    }
+    @media(min-width:770px){
+        .order-1{
+         order: unset;
+        }
+        .order-2{
+            order: unset;
+        }
+         }    
